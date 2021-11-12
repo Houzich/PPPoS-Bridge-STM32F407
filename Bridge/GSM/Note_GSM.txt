@@ -1,0 +1,43 @@
+
+/*1*/ static const GSM_CommandTypeDef
+структуры хранятся во флэш памяти, кроме одной GSMCommandAPN для того чтобы можно было
+менять оператора. В функции Fill_APN_Command_Handle записывается туда строка с именем
+apn. Берется она по ссылке со структуры GSM. Которая, в свою очередь, указывает 
+на какой-нибудь буфер в памяти.
+Поле command - комманда
+Поле command_size - размер команды
+Поле response_as_ok - это строка или кусок строки при нахождении ее в ответе модема мы считаем что OK
+Поле timeout_before_response - Выслали команду, ждем такое-то время до поступления первого символа, 
+символ поступил отсчитываем timeout_between_packet. не поступил, принимаем "ответа нет".
+Поле timeout_between_packet - Так как модем может выдать строку, потом немного подождать, выслать вторую
+и не понятно когда он закончил. Эта таймаут между символами. Если истек timeout_between_packet после
+последнего символа, считает "конец нет". 
+Поле delay_after_response - в некоторых случаях модему нужно время чтоб переворить команду. Сдесь задается 
+задержка после получения ответа
+
+
+/*2*/ const GSM_HandleCommandTypeDef *GSMInitCommandsForPPPoS[]
+если нужно будет синициализировать модем на смс-ки или на что еще другое.
+Создаешь подобную структуру GSMInitCommandsForSMS. Потом объявлешь для RAM.
+которая содержит в себе ссылку на список команд и их количество.
+GSM_SessionTypeDef GSMInitSessionForSMS =
+{
+  .coommands = (GSM_HandleCommandTypeDef *(*)[])&GSMInitCommandsForSMS,
+  .cmds_num =   (sizeof(*GSMInitCommandsForSMS) / sizeof(GSM_HandleCommandTypeDef *))
+};
+в главную структуру GSM заносишь 
+    gsm->curr_session = &GSMInitSessionForSMS;       			*/
+    gsm->curr_command = (*(GSMInitSessionForSMS.init_coommands))[0];
+и вызываешь GSM_Init
+
+
+/*3*/
+void GSM_Init(void const *argument)
+GSM_HandleCommandTypeDef *(*init_commands)[] - указатель на массив указателей на структуры GSM_HandleCommandTypeDef
+передаем сюда из структуры GSM - указатель на GSMInitCommandsForPPPoS
+
+/*4*/
+static void Enable_Init_Cmd(GSM_HandleTypeDef *gsm)
+проходим по все командам сессии и сбрасывыем флаг skip(этот флаг пропустить команду,
+используется когда на команду нет ответа, или не тот ответ (это особенно с AT+CREG?), ошибка -
+идем на повтор, и тогда по этому флагу пропускаются предыдущие команды и снова повторяется эта.

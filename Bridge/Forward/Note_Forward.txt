@@ -1,0 +1,127 @@
+PLEASE CONNECT TO BOARD
+netif: netmask of interface    set to 255.255.255.0
+netif: GW address of interface    set to 192.168.1.1
+netif_set_ipaddr: netif address being changed
+netif: IP address of interface    set to 192.168.1.10
+netif: added interface st IP addr 192.168.1.10 netmask 255.255.255.0 gw 192.168.1.1
+netif: setting default interface st
+lwip_socket(PF_INET, SOCK_STREAM, 0) = 0
+lwip_bind(0, addr=0.0.0.0 port=80)
+lwip_bind(0) succeeded
+lwip_listen(0, backlog=5)
+lwip_accept(0)...
+
+MODUL Start
+MODUL RESET
+PLEASE CONNECT TO BOARD
+GSM initialization start
+
+AT COMMAND:AT
+RESPONSE URC: 46
+Wrong response, restarting...
+
+AT COMMAND:AT
+AT RESPONSE(9): [AT...OK..]
+
+AT COMMAND:AT+IPR=115200
+AT RESPONSE(20): [AT+IPR=115200...OK..]
+
+AT COMMAND:ATZ
+AT RESPONSE(10): [ATZ...OK..]
+
+AT COMMAND:ATE0
+AT RESPONSE(11): [ATE0...OK..]
+
+AT COMMAND:AT+CMGF=1
+AT RESPONSE(6): [..OK..]
+
+AT COMMAND:AT+CFUN=1
+AT RESPONSE(6): [..OK..]
+
+AT COMMAND:AT+CNMI=0,0,0,0,0
+AT RESPONSE(6): [..OK..]
+
+AT COMMAND:AT+CPIN?
+AT RESPONSE(22): [..+CPIN: READY....OK..]
+
+AT COMMAND:AT+CREG?
+AT BAD RESPONSE(20): [..+CREG: 0,2....OK..]
+Wrong response, restarting...
+Skip command: [AT.]Skip command: [AT+IPR=115200.]Skip command: [ATZ.È ]Skip command: [ATE0. ]Skip command: [AT+CMGF=1.]Skip command: [AT+CFUN=1.]Skip command: [AT+CNMI=0,0,0,0,0.]Skip command: [AT+CPIN?.,0,À ]
+AT COMMAND:AT+CREG?
+AT BAD RESPONSE(20): [..+CREG: 0,2....OK..]
+Wrong response, restarting...
+Skip command: [AT.]Skip command: [AT+IPR=115200.]Skip command: [ATZ.È ]Skip command: [ATE0. ]Skip command: [AT+CMGF=1.]Skip command: [AT+CFUN=1.]Skip command: [AT+CNMI=0,0,0,0,0.]Skip command: [AT+CPIN?.,0,À ]
+AT COMMAND:AT+CREG?
+AT BAD RESPONSE(20): [..+CREG: 0,2....OK..]
+Wrong response, restarting...
+Skip command: [AT.]Skip command: [AT+IPR=115200.]Skip command: [ATZ.È ]Skip command: [ATE0. ]Skip command: [AT+CMGF=1.]Skip command: [AT+CFUN=1.]Skip command: [AT+CNMI=0,0,0,0,0.]Skip command: [AT+CPIN?.,0,À ]
+AT COMMAND:AT+CREG?
+AT BAD RESPONSE(20): [..+CREG: 0,2....OK..]
+Wrong response, restarting...
+Skip command: [AT.]Skip command: [AT+IPR=115200.]Skip command: [ATZ.È ]Skip command: [ATE0. ]Skip command: [AT+CMGF=1.]Skip command: [AT+CFUN=1.]Skip command: [AT+CNMI=0,0,0,0,0.]Skip command: [AT+CPIN?.,0,À ]
+AT COMMAND:AT+CREG?
+AT RESPONSE(20): [..+CREG: 0,1....OK..]
+
+AT COMMAND:AT+CGDCONT=1,"IP","vmi.velcom.by"
+AT RESPONSE(6): [..OK..]
+
+AT COMMAND:AT+CGQMIN=1,0,0,0,0,0
+AT RESPONSE(6): [..OK..]
+
+AT COMMAND:AT+CGQREQ=1,2,4,3,6,31
+AT RESPONSE(6): [..OK..]
+
+AT COMMAND:ATDT*99***1#
+AT RESPONSE(11): [..CONNECT..]
+GSM initialized.
+netif: IP address of interface pp set to 0.0.0.0
+netif: netmask of interface pp set to 255.255.255.255
+netif: GW address of interface pp set to 0.0.0.0
+netif: added interface pp IP addr 0.0.0.0 netmask 255.255.255.255 gw 0.0.0.0
+ppp phase changed[1]: phase=0
+netif: setting default interface pp
+ppp_connect[1]: holdoff=0
+ppp phase changed[1]: phase=3
+pppos_connect: unit 1: connecting
+ppp_start[1]
+ppp phase changed[1]: phase=6
+pppos_send_config[1]: out_accm=FF FF FF FF
+ppp_send_config[1]
+pppos_recv_config[1]: in_accm=FF FF FF FF
+ppp_recv_config[1]
+ppp: auth protocols: PAP=1
+sent [LCP ConfReq id=0x1 <asyncmap 0x0> <magic 0x181e> <pcomp> <accomp>]
+pppos_write[1]: len=24
+ppp_start[1]: finished
+pppos_input[1]: got 43 bytes
+
+PPPoS status_cb: User interrupt (disconnected)
+ppp_link_terminated[1]: finished.
+netif: setting default interface pp
+ppp_connect[1]: holdoff=0
+ppp phase changed[1]: phase=3
+pppos_connect: unit 1: connecting
+ppp_start[1]
+ppp phase changed[1]: phase=6
+pppos_send_config[1]: out_accm=FF FF FF FF
+ppp_send_config[1]
+pppos_recv_config[1]: in_accm=FF FF FF FF
+ppp_recv_config[1]
+ppp: auth protocols: PAP=1
+sent [LCP ConfReq id=0x5 <asyncmap 0x0> <magic 0x69f3c953> <pcomp> <accomp>]
+pppos_write[1]: len=24
+ppp_start[1]: finished
+pppos_input[1]: got 17 bytes
+rcvd [LCP TermAck id=0x3]
+sent [LCP ConfReq id=0x5 <asyncmap 0x0> <magic 0x69f3c953> <pcomp> <accomp>]
+pppos_write[1]: len=24
+sent [LCP ConfReq id=0x5 <asyncmap 0x0> <magic 0x69f3c953> <pcomp> <accomp>]
+pppos_write[1]: len=24
+sent [LCP ConfReq id=0x5 <asyncmap 0x0> <magic 0x69f3c953> <pcomp> <accomp>]
+pppos_write[1]: len=24
+sent [LCP ConfReq id=0x5 <asyncmap 0x0> <magic 0x69f3c953> <pcomp> <accomp>]
+pppos_write[1]: len=24
+sent [LCP ConfReq id=0x5 <asyncmap 0x0> <magic 0x69f3c953> <pcomp> <accomp>]
+pppos_write[1]: len=24
+
