@@ -20,3 +20,4 @@
           #define RTE_Compiler_IO_STDOUT_ITM      /* Compiler I/O: STDOUT ITM */
 
 #endif /* RTE_COMPONENTS_H */
+

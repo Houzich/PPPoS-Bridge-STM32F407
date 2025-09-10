@@ -167,3 +167,4 @@ extern const struct protent eap_protent;
 #endif /* PPP_EAP_H */
 
 #endif /* PPP_SUPPORT && EAP_SUPPORT */
+

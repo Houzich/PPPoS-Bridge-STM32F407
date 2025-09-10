@@ -76,3 +76,4 @@ void snmp_mib2_set_syslocation_readonly(const u8_t *ocstr, const u16_t *ocstrlen
 #endif
 
 #endif /* LWIP_HDR_APPS_SNMP_MIB2_H */
+

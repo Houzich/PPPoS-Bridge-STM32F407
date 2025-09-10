@@ -1645,3 +1645,4 @@ void print_link_stats() {
 #endif /* PPP_STATS_SUPPORT */
 
 #endif /* PPP_SUPPORT */
+

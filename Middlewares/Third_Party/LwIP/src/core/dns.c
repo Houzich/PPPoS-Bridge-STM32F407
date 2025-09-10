@@ -1571,3 +1571,4 @@ dns_gethostbyname_addrtype(const char *hostname, ip_addr_t *addr, dns_found_call
 }
 
 #endif /* LWIP_DNS */
+

@@ -134,3 +134,4 @@ void pppcrypt_56_to_64_bit_key(u_char *key, u_char *des_key);
 #endif /* PPPCRYPT_H */
 
 #endif /* PPP_SUPPORT */
+

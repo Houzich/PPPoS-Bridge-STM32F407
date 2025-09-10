@@ -2416,3 +2416,4 @@ ip_active_pkt(pkt, len)
 #endif /* DEMAND_SUPPORT */
 
 #endif /* PPP_SUPPORT && PPP_IPV4_SUPPORT */
+

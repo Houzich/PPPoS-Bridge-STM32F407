@@ -790,3 +790,4 @@ __weak void ethernetif_notify_conn_changed(struct netif *netif)
 /* USER CODE END 9 */
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
 
+

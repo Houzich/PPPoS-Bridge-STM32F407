@@ -97,3 +97,4 @@ u8_t autoip_accept_packet(struct netif *netif, const ip4_addr_t *addr);
 #endif /* LWIP_IPV4 && LWIP_AUTOIP */
 
 #endif /* LWIP_HDR_AUTOIP_H */
+

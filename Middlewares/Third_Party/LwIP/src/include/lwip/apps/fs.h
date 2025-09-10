@@ -101,3 +101,4 @@ void fs_state_free(struct fs_file *file, void *state);
 #endif
 
 #endif /* LWIP_HDR_APPS_FS_H */
+

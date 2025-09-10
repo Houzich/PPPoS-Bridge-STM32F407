@@ -134,3 +134,4 @@ extern const q31_t sinTable_q31[FAST_MATH_TABLE_SIZE + 1];
 extern const q15_t sinTable_q15[FAST_MATH_TABLE_SIZE + 1];
 
 #endif /*  ARM_COMMON_TABLES_H */
+

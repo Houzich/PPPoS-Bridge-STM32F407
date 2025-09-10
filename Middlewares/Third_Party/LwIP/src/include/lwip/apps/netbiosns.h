@@ -41,3 +41,4 @@ void netbiosns_set_name(const char* hostname);
 void netbiosns_stop(void);
 
 #endif /* LWIP_HDR_APPS_NETBIOS_H */
+

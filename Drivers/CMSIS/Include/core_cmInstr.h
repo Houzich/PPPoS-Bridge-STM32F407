@@ -85,3 +85,4 @@
 /*@}*/ /* end of group CMSIS_Core_InstructionInterface */
 
 #endif /* __CORE_CMINSTR_H */
+
