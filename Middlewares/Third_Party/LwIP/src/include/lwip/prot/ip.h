@@ -49,3 +49,4 @@
 #define IP_HDR_GET_VERSION(ptr)   ((*(u8_t*)(ptr)) >> 4)
 
 #endif /* LWIP_HDR_PROT_IP_H */
+

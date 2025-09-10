@@ -94,3 +94,4 @@
 #endif
 
 #endif /* __CORE_CMSIMD_H */
+

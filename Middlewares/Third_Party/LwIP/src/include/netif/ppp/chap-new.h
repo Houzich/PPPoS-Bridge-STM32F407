@@ -190,3 +190,4 @@ extern const struct protent chap_protent;
 
 #endif /* CHAP_H */
 #endif /* PPP_SUPPORT && CHAP_SUPPORT */
+

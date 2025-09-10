@@ -219,3 +219,4 @@ netifapi_netif_common(struct netif *netif, netifapi_void_fn voidfunc,
 }
 
 #endif /* LWIP_NETIF_API */
+

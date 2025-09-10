@@ -292,3 +292,4 @@ u32_t magic_pow(u8_t pow) {
 }
 
 #endif /* PPP_SUPPORT */
+

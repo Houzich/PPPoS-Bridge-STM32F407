@@ -2100,3 +2100,4 @@ nd6_adjust_mld_membership(struct netif *netif, s8_t addr_idx, u8_t new_state)
 #endif /* LWIP_IPV6_MLD */
 
 #endif /* LWIP_IPV6 */
+

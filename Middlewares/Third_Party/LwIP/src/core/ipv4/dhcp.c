@@ -1949,3 +1949,4 @@ dhcp_supplied_address(const struct netif *netif)
 }
 
 #endif /* LWIP_IPV4 && LWIP_DHCP */
+

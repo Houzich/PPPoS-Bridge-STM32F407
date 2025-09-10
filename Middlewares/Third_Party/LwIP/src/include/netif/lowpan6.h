@@ -84,3 +84,4 @@ err_t tcpip_6lowpan_input(struct pbuf *p, struct netif *inp);
 #endif /* LWIP_IPV6 && LWIP_6LOWPAN */
 
 #endif /* LWIP_HDR_LOWPAN6_H */
+

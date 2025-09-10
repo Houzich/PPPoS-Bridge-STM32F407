@@ -775,3 +775,4 @@ mem_calloc(mem_size_t count, mem_size_t size)
   return p;
 }
 #endif /* MEM_LIBC_MALLOC && (!LWIP_STATS || !MEM_STATS) */
+

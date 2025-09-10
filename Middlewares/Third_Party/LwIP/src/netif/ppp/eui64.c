@@ -54,3 +54,4 @@ char *eui64_ntoa(eui64_t e) {
 }
 
 #endif /* PPP_SUPPORT && PPP_IPV6_SUPPORT */
+

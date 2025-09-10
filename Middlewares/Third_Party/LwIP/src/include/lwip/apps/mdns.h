@@ -67,3 +67,4 @@ void mdns_resp_netif_settings_changed(struct netif *netif);
 #endif /* LWIP_MDNS_RESPONDER */
 
 #endif /* LWIP_HDR_MDNS_H */
+

@@ -82,3 +82,4 @@ void nd6_adjust_mld_membership(struct netif *netif, s8_t addr_idx, u8_t new_stat
 #endif /* LWIP_IPV6 */
 
 #endif /* LWIP_HDR_ND6_H */
+

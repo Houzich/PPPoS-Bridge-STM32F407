@@ -118,3 +118,4 @@ HAL_StatusTypeDef HAL_DMAEx_ChangeMemory(DMA_HandleTypeDef *hdma, uint32_t Addre
 #endif /*__STM32F4xx_HAL_DMA_EX_H*/
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+

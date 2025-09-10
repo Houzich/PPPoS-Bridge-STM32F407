@@ -73,3 +73,4 @@ void ethernetif_notify_conn_changed(struct netif *netif);
 #endif
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+

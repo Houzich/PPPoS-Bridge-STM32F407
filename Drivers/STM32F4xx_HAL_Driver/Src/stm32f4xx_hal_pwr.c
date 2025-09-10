@@ -573,3 +573,4 @@ void HAL_PWR_DisableSEVOnPend(void)
   */
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+
