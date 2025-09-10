@@ -1340,3 +1340,4 @@ mqtt_client_is_connected(mqtt_client_t *client)
 }
 
 #endif /* LWIP_TCP && LWIP_CALLBACK_API */
+

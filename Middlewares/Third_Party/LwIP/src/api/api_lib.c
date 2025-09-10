@@ -1008,3 +1008,4 @@ netconn_thread_cleanup(void)
 #endif /* LWIP_NETCONN_SEM_PER_THREAD */
 
 #endif /* LWIP_NETCONN */
+

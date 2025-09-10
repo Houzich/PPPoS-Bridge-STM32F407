@@ -797,3 +797,4 @@ void fsm_sdata(fsm *f, u_char code, u_char id, const u_char *data, int datalen) 
 }
 
 #endif /* PPP_SUPPORT */
+

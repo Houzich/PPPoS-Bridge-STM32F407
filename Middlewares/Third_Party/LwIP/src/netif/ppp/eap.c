@@ -2421,3 +2421,4 @@ static int eap_printpkt(const u_char *inp, int inlen, void (*printer) (void *, c
 #endif /* PRINTPKT_SUPPORT */
 
 #endif /* PPP_SUPPORT && EAP_SUPPORT */
+

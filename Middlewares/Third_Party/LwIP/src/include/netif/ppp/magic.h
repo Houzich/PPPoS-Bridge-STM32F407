@@ -120,3 +120,4 @@ u32_t magic_pow(u8_t pow);
 #endif /* MAGIC_H */
 
 #endif /* PPP_SUPPORT */
+

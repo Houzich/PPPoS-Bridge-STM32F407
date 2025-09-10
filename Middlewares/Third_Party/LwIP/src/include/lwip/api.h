@@ -398,3 +398,4 @@ void netconn_thread_cleanup(void);
 #endif /* LWIP_NETCONN || LWIP_SOCKET */
 
 #endif /* LWIP_HDR_API_H */
+

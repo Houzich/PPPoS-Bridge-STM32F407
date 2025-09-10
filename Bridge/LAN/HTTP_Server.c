@@ -208,3 +208,4 @@ void HTTP_Server_Socket_Init(void)
   osThreadCreate(osThread(HTTPTask), NULL);
 }
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+

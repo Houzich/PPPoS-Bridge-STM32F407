@@ -84,3 +84,4 @@ void Modem_PPPoS_Error_Set(PPPOS_ErrorTypeDef stat);
 void PPPOS_Test(void);
 void PPPOS_LOG_Phase(ppp_pcb *pcb);
 #endif
+

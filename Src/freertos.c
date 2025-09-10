@@ -107,3 +107,4 @@ void vAssertCalled(char * file, int line)
 /* USER CODE END Application */
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+

@@ -42,3 +42,4 @@ extern const struct chap_digest_type chapms2_digest;
 #endif /* CHAPMS_INCLUDE */
 
 #endif /* PPP_SUPPORT && MSCHAP_SUPPORT */
+

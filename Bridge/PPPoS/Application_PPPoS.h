@@ -21,3 +21,4 @@ void GSM_PPPoS_Flag_Set(uint8_t *fl, uint8_t gstat);
 void User_notification(struct netif *netif);
 
 #endif /*_APPLICATION_PPPOS_H_ */
+

@@ -158,3 +158,4 @@ struct tcpip_msg {
 #endif /* !NO_SYS */
 
 #endif /* LWIP_HDR_TCPIP_PRIV_H */
+
