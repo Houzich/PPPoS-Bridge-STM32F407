@@ -586,3 +586,4 @@ mld6_send(struct netif *netif, struct mld_group *group, u8_t type)
 }
 
 #endif /* LWIP_IPV6 */
+

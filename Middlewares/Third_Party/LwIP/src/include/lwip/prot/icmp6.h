@@ -168,3 +168,4 @@ PACK_STRUCT_END
 #endif
 
 #endif /* LWIP_HDR_PROT_ICMP6_H */
+

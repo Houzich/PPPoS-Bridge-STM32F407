@@ -75,3 +75,4 @@ extern const struct eth_addr ethbroadcast, ethzero;
 #endif
 
 #endif /* LWIP_HDR_NETIF_ETHERNET_H */
+

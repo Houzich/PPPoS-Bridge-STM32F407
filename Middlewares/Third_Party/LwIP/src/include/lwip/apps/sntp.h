@@ -74,3 +74,4 @@ void sntp_servermode_dhcp(int set_servers_from_dhcp);
 #endif
 
 #endif /* LWIP_HDR_APPS_SNTP_H */
+

@@ -36,3 +36,4 @@
 #define PERF_STOP(x)  /* null definition */
 
 #endif /* __PERF_H__ */
+

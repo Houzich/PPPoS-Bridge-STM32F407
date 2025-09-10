@@ -688,3 +688,4 @@ err_t ppp_ioctl(ppp_pcb *pcb, u8_t cmd, void *arg);
 #endif /* PPP_H */
 
 #endif /* PPP_SUPPORT */
+

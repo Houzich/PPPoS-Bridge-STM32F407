@@ -790,3 +790,4 @@ uint32_t              HAL_UART_GetError(UART_HandleTypeDef *huart);
 #endif /* __STM32F4xx_HAL_UART_H */
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+

@@ -442,3 +442,4 @@ HAL_StatusTypeDef FLASH_WaitForLastOperation(uint32_t Timeout);
 #endif /* __STM32F4xx_HAL_FLASH_H */
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+

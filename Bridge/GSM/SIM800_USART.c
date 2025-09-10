@@ -172,3 +172,4 @@ void HAL_UART_AbortReceiveCpltCallback (UART_HandleTypeDef *huart){Error_Handler
 
 
 #endif /* BRIDGE_USE_GSM */
+

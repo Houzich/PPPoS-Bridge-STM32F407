@@ -92,3 +92,4 @@ char *eui64_ntoa(eui64_t);	/* Returns ascii representation of id */
 
 #endif /* EUI64_H */
 #endif /* PPP_SUPPORT && PPP_IPV6_SUPPORT */
+

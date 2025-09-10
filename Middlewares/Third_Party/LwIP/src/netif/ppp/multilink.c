@@ -607,3 +607,4 @@ str_to_epdisc(ep, str)
 }
 
 #endif /* PPP_SUPPORT && HAVE_MULTILINK */
+

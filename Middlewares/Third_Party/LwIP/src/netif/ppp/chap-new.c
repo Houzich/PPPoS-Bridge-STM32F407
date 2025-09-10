@@ -675,3 +675,4 @@ const struct protent chap_protent = {
 };
 
 #endif /* PPP_SUPPORT && CHAP_SUPPORT */
+

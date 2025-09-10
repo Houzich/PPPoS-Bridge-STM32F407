@@ -189,3 +189,4 @@ ecp_printpkt(p, plen, printer, arg)
 #endif /* PRINTPKT_SUPPORT */
 
 #endif /* PPP_SUPPORT && ECP_SUPPORT */
+
