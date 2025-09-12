@@ -639,3 +639,4 @@ HAL_StatusTypeDef HAL_PWREx_EnterUnderDriveSTOPMode(uint32_t Regulator, uint8_t 
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
 
+

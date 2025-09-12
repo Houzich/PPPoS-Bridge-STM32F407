@@ -676,3 +676,4 @@ static int upap_printpkt(const u_char *p, int plen, void (*printer) (void *, con
 
 #endif /* PPP_SUPPORT && PAP_SUPPORT */
 
+

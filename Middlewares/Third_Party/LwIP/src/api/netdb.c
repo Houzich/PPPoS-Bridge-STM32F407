@@ -412,3 +412,4 @@ lwip_getaddrinfo(const char *nodename, const char *servname,
 
 #endif /* LWIP_DNS && LWIP_SOCKET */
 
+

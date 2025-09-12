@@ -160,3 +160,4 @@ extern int   vj_uncompress_tcp   (struct pbuf **nb, struct vjcompress *comp);
 
 #endif /* PPP_SUPPORT && VJ_SUPPORT */
 
+

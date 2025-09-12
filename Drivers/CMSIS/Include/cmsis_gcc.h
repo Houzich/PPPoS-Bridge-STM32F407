@@ -1372,3 +1372,4 @@ __attribute__( ( always_inline ) ) __STATIC_INLINE uint32_t __SMMLA (int32_t op1
 
 #endif /* __CMSIS_GCC_H */
 
+

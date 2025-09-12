@@ -1220,3 +1220,4 @@ pppoe_clear_softc(struct pppoe_softc *sc, const char *message)
 #endif /* UNUSED */
 #endif /* PPP_SUPPORT && PPPOE_SUPPORT */
 
+

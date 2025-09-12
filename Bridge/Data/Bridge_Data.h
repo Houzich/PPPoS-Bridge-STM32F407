@@ -35,3 +35,4 @@ extern char for_test_rx_data[2048];
 extern char *string_site_req;
 #endif /* __GRIDGE_DATA_H__ */
 
+

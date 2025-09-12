@@ -5396,3 +5396,4 @@ static void TIM_ETR_SetConfig(TIM_TypeDef* TIMx, uint32_t TIM_ExtTRGPrescaler,
   */ 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
 
+

@@ -2536,3 +2536,4 @@ static void UART_SetConfig(UART_HandleTypeDef *huart)
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
 
+

@@ -155,3 +155,4 @@ void ccp_resetrequest(ppp_pcb *pcb);  /* Issue a reset-request. */
 #endif /* CCP_H */
 #endif /* PPP_SUPPORT && CCP_SUPPORT */
 
+

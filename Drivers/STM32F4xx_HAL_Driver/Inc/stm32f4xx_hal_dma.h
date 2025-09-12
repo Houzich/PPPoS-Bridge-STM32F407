@@ -819,3 +819,4 @@ uint32_t             HAL_DMA_GetError(DMA_HandleTypeDef *hdma);
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
 
+

@@ -1532,3 +1532,4 @@ static int ipv6_active_pkt(u_char *pkt, int len) {
 
 #endif /* PPP_SUPPORT && PPP_IPV6_SUPPORT */
 
+

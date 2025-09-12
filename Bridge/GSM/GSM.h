@@ -95,3 +95,4 @@ void GSM_Config_Reset_State(GSM_HandleTypeDef *gsm, UART_HandleTypeDef *huart);
 void GSM_Hardware_Reset_And_Start(GSM_HandleTypeDef *gsm, UART_HandleTypeDef *huart);
 #endif /* __GSM_H */
 
+

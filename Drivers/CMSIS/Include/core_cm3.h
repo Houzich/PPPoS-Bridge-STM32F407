@@ -1762,3 +1762,4 @@ __STATIC_INLINE int32_t ITM_CheckChar (void)
 
 #endif /* __CMSIS_GENERIC */
 
+

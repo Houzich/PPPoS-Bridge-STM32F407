@@ -1205,3 +1205,4 @@ etharp_request(struct netif *netif, const ip4_addr_t *ipaddr)
 
 #endif /* LWIP_ARP || LWIP_ETHERNET */
 
+

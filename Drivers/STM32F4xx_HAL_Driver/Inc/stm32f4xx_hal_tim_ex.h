@@ -367,3 +367,4 @@ HAL_TIM_StateTypeDef HAL_TIMEx_HallSensor_GetState(TIM_HandleTypeDef* htim);
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
 
+

@@ -457,3 +457,4 @@ void USART_Change_BaudRate(UART_HandleTypeDef *huart, uint32_t BaudRate)
 
 #endif /*BRIDGE_USE_GSM*/
 
+
